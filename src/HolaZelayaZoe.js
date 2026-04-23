@@ -1,5 +1,5 @@
 var nombre = "Zoe";
 let apellido = "Zelaya";
-const TEXTO = "Hola mundo segun ";
+const TEXTO = `Hola Mundo, según ${nombre} ${apellido}`;
 
-console.log(TEXTO + nombre + apellido);
+console.log(TEXTO);
