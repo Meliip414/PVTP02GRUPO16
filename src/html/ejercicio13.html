@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    const mostrarArreglo = (arreglo) => {
+    for (let i = 0; i < arreglo.length; i++) {
+        document.write(arreglo[i] + "<br>");
+    }
+};
+
+let cantidad = prompt("Cuantos numeros vas a ingresar?");
+cantidad = cantidad * 1;
+let numeros = [];
+
+for (let i = 0; i < cantidad; i++) {
+    let num = prompt("Ingresá un número:");
+    num = num * 1;
+    numeros[i] = num; 
+}
+
+document.write("Elementos del arreglo:<br>");
+mostrarArreglo(numeros);
+
+</script>
+
+</body>
+</html>

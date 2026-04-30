@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+let cantidad = prompt("Cuantos numeros queres ingresar?");
+cantidad = cantidad * 1;
+let numeros = [];
+let suma = 0;
+
+for (let i = 0; i < cantidad; i++) {
+    let num = prompt("Ingresa un numero:");
+    num = num * 1;
+    numeros[i] = num;
+    suma = suma + num;
+}
+
+let promedio = suma / cantidad;
+
+document.write("Numeros ingresados: " + numeros + "<br>");
+document.write("Promedio: " + promedio);
+</script>
+
+</body>
+</html>
