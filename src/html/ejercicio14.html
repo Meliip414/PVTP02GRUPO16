@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <script>
+        //tamaño del arreglo
+        let i= prompt("Por favor, ingrese el tamaño del arreglo");
+        const numeros=[];
+
+        while(numeros.length<i){
+            let numero = prompt("Por favor, ingrese un número para el arreglo");
+            numeros.push(numero);
+        }
+
+        const DuplicarNumeros = (numeros) =>{
+            return numeros.map( n => n*2);
+        }
+
+        alert(`duplicados: ${DuplicarNumeros(numeros)}`);
+    </script>
+</body>
+</html>

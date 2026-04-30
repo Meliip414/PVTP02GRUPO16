@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <script>
+        let a= Number(prompt("Por favor, ingrese el primer número"));
+        let b;
+        do{
+            b= Number(prompt("Ingrese el segundo número mayor al primero"));
+        }while(b<a);
+
+        const SumarNumeros =(num1,num2) => {
+            let suma=0;
+            for(let i=num1; i<=num2;i++){
+                suma=suma+i;
+            }
+            return suma;
+        }
+
+        alert(`La suma de los números en el rango de ${a} y ${b} es: ${SumarNumeros(a,b)}`);
+
+    </script>
+</body>
+</html>
