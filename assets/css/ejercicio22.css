@@ -1,0 +1,32 @@
+:root {
+    --fondo: #eeb394;
+    --texto: #650011;
+    --input: #e8a384;
+    --detalle: #eda1af;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--fondo);
+    
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    color: var(--texto);
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    background-color: var(--input);
+    border: 1px solid var(--detalle);
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--texto);
+}
