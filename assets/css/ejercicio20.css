@@ -1,0 +1,52 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    background-color: #F9DCE3;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    background-color: #F9DCE3;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F9DCE3;
+}
