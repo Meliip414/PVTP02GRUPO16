@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 25</title>
+    <link rel="stylesheet" href="../../assets/css/ejercicio25.css">
+</head>
+<body>
+    <h1>TRABAJO PRACTICO NRO 2</h1>
+    <h2>ejercicio 25</h2>
+    <h3>CLICS REALIZADOS: </h3>
+    <h3 id="nro_clics"></h3>
+    <button id="boton">cambiar color</button>
+    <script>
+
+        let n=0;
+        let c=-1;
+        const b=document.getElementById("boton");
+        const color=["red","orange","yellow","green","blue","purple"];
+        document.getElementById("nro_clics").textContent=n;
+        b.addEventListener("click", () => { 
+            n=n+1;
+            c=c+1;
+
+            if(c<color.length){
+            document.body.style.backgroundColor=color[c];
+            }else{
+                c=0;
+                document.body.style.backgroundColor=color[c];
+            }
+            console.log("Se ha cambiado el color")
+            document.getElementById("nro_clics").textContent=n;
+        })
+            
+    </script>
+</body>
+</html>
